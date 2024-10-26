@@ -59,12 +59,5 @@ public class MathOperations {
         return result;
     }
 
-    // Concatenates strings in a loop (inefficient), irrelevant logging
-    public String logOperations(int times) {
-        String log = "";
-        for (int i = 0; i < times; i++) {
-            log += "Operation: " + operation + "\n"; // Inefficient string concatenation
-        }
-        return log;
-    }
+
 }
